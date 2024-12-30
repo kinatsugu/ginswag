@@ -1,0 +1,70 @@
+basePath: /api/v1
+definitions:
+  models.Todo:
+    properties:
+      id:
+        type: integer
+      status:
+        type: string
+      title:
+        type: string
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: This is a sample API for demonstrating Swagger with Gin.
+  title: Ginswag Example API
+  version: "1.0"
+paths:
+  /health:
+    get:
+      consumes:
+      - application/json
+      description: do health check
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: health check
+      tags:
+      - example
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: do ping
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: pong
+          schema:
+            type: string
+      summary: ping example
+      tags:
+      - example
+  /todo/{id}:
+    get:
+      consumes:
+      - application/json
+      description: get todo
+      parameters:
+      - description: Todo ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Todo'
+      summary: get todo
+      tags:
+      - todo
+swagger: "2.0"

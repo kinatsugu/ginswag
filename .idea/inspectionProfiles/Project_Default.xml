@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="cffi" />
+            <item index="1" class="java.lang.String" itemvalue="cryptography" />
+            <item index="2" class="java.lang.String" itemvalue="testfixtures" />
+            <item index="3" class="java.lang.String" itemvalue="altgraph" />
+            <item index="4" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="5" class="java.lang.String" itemvalue="pyobjc-framework-Cocoa" />
+            <item index="6" class="java.lang.String" itemvalue="six" />
+            <item index="7" class="java.lang.String" itemvalue="pyobjc-core" />
+            <item index="8" class="java.lang.String" itemvalue="pycparser" />
+            <item index="9" class="java.lang.String" itemvalue="rumps" />
+            <item index="10" class="java.lang.String" itemvalue="exceptiongroup" />
+            <item index="11" class="java.lang.String" itemvalue="macholib" />
+            <item index="12" class="java.lang.String" itemvalue="py2app" />
+            <item index="13" class="java.lang.String" itemvalue="docutils" />
+            <item index="14" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="15" class="java.lang.String" itemvalue="modulegraph" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
